@@ -1,0 +1,1 @@
+// to write JavaScript code to make the app more interactive
