@@ -8,11 +8,6 @@ A simple Pomodoro Timer built using HTML, CSS, and JavaScript to help improve fo
 - Start button
 - Clean and responsive design
 
-## Preview
-
-![screenshot](screenshot.png)  
-A preview of the Pomodoro Timer interface.
-
 ## Technologies Used
 
 - HTML for page structure
