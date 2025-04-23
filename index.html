@@ -10,9 +10,23 @@
   </head>
   <body>
     <div class="app-container">
+      <h1>pomodoro</h1>                                     <!--title element-->
+      <div class="app-message">press start to begin</div>   <!--text element-->
+      <div class="app-circle">                              <!--next ones are all shapes-->
+        <div class="circle-shape">
+          <div class="semi-circle right-side circle-mask"></div>
+          <div class="semi-circle right-side circle"></div>
+          <div class="semi-circle left-side circle-mask"></div>
+          <div class="semi-circle left-side circle"></div>
+        </div>
+        <div class="app-counter-box">                       <!--timer counter starting at 25-->
+          <p><span class="minutes">25</span>:<span class="seconds">00</span></p>
+        </div>
+        <button class="btn-start">start</button>            <!--button to start timer-->
+      </div>
+    </div>
 	</div>
   </body>
   <script src="./app.js"></script>
 </html>
-
-<!-- NEXT PART: In the <body>, let's add the following inside the <div> element with the app-container class:-->
+<!--at this point we have all of the basic elements for the site that we need. Now we will use css to style it-->
