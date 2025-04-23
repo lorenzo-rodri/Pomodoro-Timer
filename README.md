@@ -6,6 +6,8 @@ A simple Pomodoro Timer built using HTML, CSS, and JavaScript to help improve fo
 
 - 25-minute work session timer
 - Start button
+- Pause/Resume buttone
+- Restart button
 - Clean and responsive design
 
 ## Technologies Used
