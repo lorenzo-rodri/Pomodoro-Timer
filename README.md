@@ -19,7 +19,7 @@ A simple Pomodoro Timer built using HTML, CSS, and JavaScript to help improve fo
 ## How It Works
 
 1. The timer starts at 25 minutes for a work session.
-2. Once the session ends, a bell will chime
+2. Once the session ends, a bell will chime.
 
 ## Getting Started
 
@@ -29,4 +29,4 @@ To run the app locally:
    ```bash
    git clone https://github.com/lorenzo-rodri/Pomodoro-Timer.git
    cd pomodoro-timer
-2. Open index.html.
+2. Open index.html in your browser.
