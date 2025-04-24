@@ -1,6 +1,6 @@
 # Pomodoro Timer Web App
 
-A simple Pomodoro Timer built using HTML, CSS, and JavaScript to help improve focus and productivity. This project is based on the Codédex tutorial and demonstrates essential front-end development skills.
+A simple Pomodoro Timer built using HTML, CSS, and JavaScript to help improve focus and productivity.
 
 ## Features
 
