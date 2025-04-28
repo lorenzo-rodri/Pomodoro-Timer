@@ -1,11 +1,13 @@
 # Pomodoro Timer Web App
 
-A simple Pomodoro Timer built using HTML, CSS, and JavaScript to help improve focus and productivity. This project is based on the Codédex tutorial and demonstrates essential front-end development skills.
+A simple Pomodoro Timer built using HTML, CSS, and JavaScript to help improve focus and productivity.
 
 ## Features
 
 - 25-minute work session timer
 - Start button
+- Pause/Resume buttone
+- Restart button
 - Clean and responsive design
 
 ## Technologies Used
@@ -17,7 +19,7 @@ A simple Pomodoro Timer built using HTML, CSS, and JavaScript to help improve fo
 ## How It Works
 
 1. The timer starts at 25 minutes for a work session.
-2. Once the session ends, a bell will chime
+2. Once the session ends, a bell will chime.
 
 ## Getting Started
 
@@ -27,4 +29,4 @@ To run the app locally:
    ```bash
    git clone https://github.com/lorenzo-rodri/Pomodoro-Timer.git
    cd pomodoro-timer
-2. Open index.html.
+2. Open index.html in your browser.
