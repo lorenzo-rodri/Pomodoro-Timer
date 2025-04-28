@@ -1,19 +1,17 @@
-/* for us to write CSS code to make the app look nice */
-
-/* set font and background */
+/* set font and background across entire page*/
 html {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Pixelify Sans', sans-serif;
 	font-size: 20px;
 	letter-spacing: 0.8px;
-	min-height: 100vh;
+	min-height: 100vh; /* makes sure page is at least height of screen */
 	color: #d8e9ef;
-	background-image: linear-gradient(-20deg, #025159 0%, #733b36 100%);
+	background-image: linear-gradient(-20deg, #654374 0%, #5c96cb 100%); /* background gradient */
 	background-size: cover;
 }
 
 /* app headings and overall container */
 h1 {
-	margin: 0 auto 10px auto;
+	margin: 0 auto 10px auto; 
 	color: #d8e9ef;
   }
   
@@ -79,19 +77,19 @@ h1 {
 
 /* this sets the border colour for the outline of circle timer */
 .circle {
-	border-color: #bf5239;
+	border-color: #00fbff;
   }
   
   .circle-mask {
-	border-color: #e85a71;
+	border-color: #00fbff;
 }
 
 /* .app-counter-box contains the remaining time for the timer. 
 The button element is set to make only the text visible and uppercase. 
 Also when hovered, the button colour will change */
 .app-counter-box {
-	font-family: 'Droid Sans Mono', monospace;
-	font-size: 250%;
+	font-family: 'Jersey 10', sans-serif;
+	font-size: 300%;
 	position: relative;
 	top: 50px;
 	color: #d8e9ef;
@@ -100,8 +98,8 @@ Also when hovered, the button colour will change */
   button {
 	position: relative;
 	top: 50px;
-	font-size: 80%;
-	text-transform: uppercase;
+	font-family: 'Pixelify Sans', sans-serif;
+	font-size: 90%;
 	letter-spacing: 1px;
 	border: none;
 	background: none;
