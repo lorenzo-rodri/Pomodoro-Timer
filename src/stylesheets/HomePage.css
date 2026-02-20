@@ -1,0 +1,120 @@
+html {
+	font-family: 'Pixelify Sans', sans-serif;
+	font-size: 20px;
+	letter-spacing: 0.8px;
+	min-height: 100vh; /* makes sure page is at least height of screen */
+	color: #d8e9ef;
+	background-image: linear-gradient(-20deg, #654374 0%, #5c96cb 100%); 
+	background-size: cover;
+	text-align: center;
+}
+
+.home-page {
+	display: flex;
+	justify-content: center; /* Horizontal centering */
+	align-items: center;     /* Vertical centering */
+	min-height: 85vh;       /* Needed for vertical centering */
+	flex-direction: column;  /* Optional: stacks content vertically */
+}
+
+h1 {
+	margin: 50px auto 10px auto; 
+	font-size: 60px;
+	color: #d8e9ef;
+	font-family: 'Pixelify Sans', sans-serif;
+}
+  
+.app-message {
+	height: 20px;
+	margin: 10px auto 20px auto;
+	font-family: 'Pixelify Sans', sans-serif;
+}
+
+.music-button-container {
+  display: flex;          
+  gap: 20px;              
+  flex-wrap: wrap;        
+  justify-content: center; 
+  padding: 20px;
+}
+
+.music-button {
+	color: #d8e9ef;
+	font-family: 'Pixelify Sans', sans-serif;
+	width: 300px; 
+	height: 300px; 
+	border: none;
+	border-radius: 20px; 
+	cursor: pointer;
+	box-shadow: 0 4px 8px rgba(119, 111, 111, 0.2);
+	transition: transform 0.2s, box-shadow 0.3s;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end; 
+	padding: 10px;
+	transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+#lofi {
+	background-image: url('../assets/lofi.gif'); 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#ambient {
+	background-image: url('../assets/ambient.gif'); 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#piano {
+	background-image: url('../assets/piano.gif');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#white-noise {
+	background-image: url('../assets/white-noise.gif'); 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.music-button:hover {
+  	background-color: #b9b9b9;
+  	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  	transform: scale(1.05); 
+  	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+.start-box {
+	display: flex;          
+  	gap: 20px;              
+  	flex-wrap: wrap;        
+  	justify-content: center; 
+  	padding: 20px;
+}
+
+.start-button {
+	color: #ffffff;
+	background: #3d3dd6;
+	font-family: 'Pixelify Sans', sans-serif;
+	font-size: 25px;
+	width: 200px; 
+	height: 60px; 
+	border: none;
+	border-radius: 20px; 
+	cursor: pointer;
+	box-shadow: 0 4px 8px rgba(119, 111, 111, 0.2);
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+}
+
+.start-button:hover {
+  	background-color: #3d3dd6;
+  	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}

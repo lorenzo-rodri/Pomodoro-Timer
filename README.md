@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Pomodoro Player
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based productivity suite that integrates a Pomodoro timer with automated YouTube music synchronization.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+* **Intelligent Soundscapes:** Choose between LO-FI, Ambient, Piano, or White Noise.
+* **Automated YouTube Integration:** Uses the YouTube Data API to fetch and embed a random, relevant study video based on your selection.
+* **Optimized Focus Blocks:** Pre-configured for 45-minute deep-work sessions to maximize productivity.
+* **Synchronized Control System:** A unified interface to start, pause, resume, or reset both the countdown timer.
+* **Audio Feedback:** Includes a custom chime to signal the start of a session.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+* **Core Framework:** React.js
+* **Navigation:** React Router DOM
+* **External APIs:** YouTube Data API v3 & YouTube IFrame Player API
+* **State Management:** React `useState`, `useEffect`, and `useRef` for precise timer logic
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## How It Works
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  **Select Category:** On the **Home Page**, select your preferred background audio category.
+2.  **Initialize:** The app passes your selection to the **Timer Page**, where a unique video ID is dynamically fetched.
+3.  **The Session:** Clicking **Start** triggers the 45-minute countdown and automatically begins video playback.
+4.  **Reset:** Choosing **Reset** sets the timer back to 45 minutes and stops the video.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Prerequisites
+* **Node.js**
+* **npm**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/lorenzo-rodri/Pomodoro-Timer.git](https://github.com/lorenzo-rodri/Pomodoro-Timer.git)
+    cd pomodoro-timer
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3.  **Launch the application:**
+    ```bash
+    npm start
+    ```
+    The interface will be accessible at `http://localhost:3000`.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> **Note:** This project requires a valid YouTube Data API key. Ensure your key is correctly configured in `Timer.jsx` to enable video fetching.
