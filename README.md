@@ -4,6 +4,14 @@ A React-based productivity suite that integrates a Pomodoro timer with automated
 
 ---
 
+## Demo
+
+
+https://github.com/user-attachments/assets/744c8bd3-cb59-4966-8e4e-2cbac2a8e8a7
+
+
+---
+
 ## Features
 
 * **Intelligent Soundscapes:** Choose between LO-FI, Ambient, Piano, or White Noise.
